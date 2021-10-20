@@ -1,19 +1,38 @@
-header {
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+#header {
     background-color: burlywood;
-    height: 20px;
 }
 
-nav {
+#menu {
     background-color: coral;
-    height: 20px;
+    float: left;
+    width: 150px;
+    height: 100%;
+    font-size: 20px;
 }
 
-main {
+#menu ul li {
+    list-style: none;
+}
+
+#menu ul li a {
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    background-color: fuchsia;
+}
+
+#content {
     background-color: darkseagreen;
-    height: 20px;
+    margin-left: 160px;
 }
 
-footer {
+#footer {
     background-color: darkslategray;
-    height: 20px;
 }
