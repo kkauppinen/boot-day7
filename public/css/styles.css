@@ -1,0 +1,19 @@
+header {
+    background-color: burlywood;
+    height: 20px;
+}
+
+nav {
+    background-color: coral;
+    height: 20px;
+}
+
+main {
+    background-color: darkseagreen;
+    height: 20px;
+}
+
+footer {
+    background-color: darkslategray;
+    height: 20px;
+}
