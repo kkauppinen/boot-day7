@@ -5,12 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/myfunctions.js"></script>
     <title>Library</title>
 </head>
 <body>
-    <header><h1>Library header</h1></header>
-    <nav></nav>
-    <main></main>
-    <footer></footer>
+    <div id="header"><p>This is header</p></div>
+    <div id="menu">
+        <ul>
+            <li> <a href="#" onclick="loadDoc('page1.html')">Page1</a> </li>
+            <li> <a href="#" onclick="loadDoc('page2.html')">Page2</a> </li>
+            <li> <a href="#" onclick="loadDoc('page3.html')">Page3</a> </li>
+        </ul>
+    </div>
+    <div id="content"></div>
+    <div id="footer"><p>this is footer</p></div>
 </body>
 </html>
