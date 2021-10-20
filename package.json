@@ -1,0 +1,22 @@
+{
+  "name": "boot-day7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkauppinen/boot-day7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkauppinen/boot-day7/issues"
+  },
+  "homepage": "https://github.com/kkauppinen/boot-day7#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
