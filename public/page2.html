@@ -1,1 +1,31 @@
-<h1>Page2</h1>
+<h2>Page2</h2>
+
+<form class="myforms" id="sourceForm">
+    <p>
+        <label for="source_language">Choose your language</label> <br>
+        <select class="" name="source_language" id="source_language" onchange="showLanguage()">
+            <option value="english">English</option>
+            <option value="finnish">Finnish</option>
+            <option value="swedish">Swedish</option>
+        </select>
+    </p>
+    <p>
+        <fieldset>
+            <legend>Choose your phone model</legend>
+            <label for="nokia">Nokia</label>
+            <input type="radio" name="phone" onchange="showPhone('Nokia')" value="Nokia" id="nokia"><br>
+            <label for="huawei">Huawei</label>
+            <input type="radio" name="phone" onchange="showPhone('Huawei')" value="Huawei" id="huawei"><br>
+            <label for="samsung">Samsung</label>
+            <input type="radio" name="phone" onchange="showPhone('Samsung')" value="Samsung" id="samsung">
+        </fieldset>
+    </p>
+</form>
+
+<form class="myforms" id="targetForm">
+    <label for="">Selected language</label> <br>
+    <input type="text" id="target_language" name="" value=""> <br>
+    <label for="">Selected Phone</label> <br>
+    <input type="text" id="target_phone" name="" value="">
+
+</form>
